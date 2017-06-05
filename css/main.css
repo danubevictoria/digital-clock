@@ -1,0 +1,24 @@
+* {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 120px;
+	display: inline;
+}
+
+#clock {
+	margin: 20px;
+}
+
+/*#ampm {
+	margin-left: 
+}*/
+@media (min-width: 320px) {
+	* {
+		font-size: 40px;
+	}
+}
+
+@media (min-width: 768px) {
+	* {
+		font-size: 100px;
+	}
+}
