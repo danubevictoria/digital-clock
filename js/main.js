@@ -31,12 +31,12 @@ var clock_time = document.createTextNode(hours + ":" + minutes + ":" + seconds);
 clock_p.appendChild(clock_time);
 clock_div.appendChild(clock_p);
 
-var ampm_div = document.createElement('div');
+// var ampm_div = document.createElement('div');
 var ampm_p = document.createElement('p');
 var ampm_text = document.createTextNode(ampm);
-clock_div.appendChild(ampm_div);
+clock_div.appendChild(ampm_p);
 ampm_p.appendChild(ampm_text);
-ampm_div.appendChild(ampm_p);
+// ampm_div.appendChild(ampm_p);
 ampm_p.id = "ampm"
 
 document.getElementById("body").appendChild(clock_div);
